@@ -1,0 +1,9 @@
+合計 28
+drwxr-xr-x 4 saito saito 4096  5月 27 00:14 ./
+drwxr-xr-x 3 saito saito 4096  5月 26 15:43 ../
+drwxr-xr-x 8 saito saito 4096  5月 26 18:05 .git/
+drwxr-xr-x 2 saito saito 4096  5月 26 18:06 __pycache__/
+-rwxr-xr-x 1 saito saito    0  5月 29 14:14 sample.txt*
+-rwxr-xr-x 1 saito saito   63  5月 26 18:05 square.py*
+-rwxr-xr-x 1 saito saito   74  5月 27 00:14 test1.py*
+-rwxr-xr-x 1 saito saito  803  5月 26 18:05 test_square.py*
