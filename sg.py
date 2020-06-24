@@ -10,6 +10,16 @@ ser.write(b'sgi\n')                     #送りたい内容をバイト列で送
 print(ser.readline())                   #行終端'¥n'までリードする
 ser.write(b'sgb,36,0xabcd,100,20\n')
 print(ser.readline())
+ser.write(b'sgra\n')
+print(ser.readline())
+ser.write(b'w,1234\n')
+print(ser.readline())
+ser.write(b'sgs,0xabcd,0x1234,0\n')
+print(ser.readline())
+ser.write(b'sgs,0xabcd,0x1234,1\n')
+print(ser.readline())
+ser.write(b'sgc\n')
+print(ser.readline())
 
 ser.close()
 
