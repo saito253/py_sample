@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 dat = []
-with open('/home/saito/data/mlx.csv', 'r') as f:
+with open(sys.argv[0], 'r') as f:
     for line in f:
 #       print(line[7:11])
         dat.append(float(line[7:11]))
